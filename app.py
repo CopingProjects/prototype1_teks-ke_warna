@@ -4,7 +4,7 @@ from warna_utils import buat_visualisasi
 st.set_page_config(page_title="Teks ke Warna", layout="wide")
 
 st.title("Prototype 1 - Tolong hurufnya ganti warna, dong")
-st.write("Masukkan teks")
+
 
 teks = st.text_area("Masukkan teks:", height=200)
 
